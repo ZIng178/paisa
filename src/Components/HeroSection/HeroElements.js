@@ -87,3 +87,20 @@ export const ArrowRight = styled(MdKeyboardArrowRight)`
   margin-left: 8px;
   font-size: 20px;
 `;
+
+export const HeroContentSignIn = styled.div`
+  z-index: 3;
+  max-width: 1200px;
+  position: absolute;
+  padding: 8px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 20%;
+`;
+
+export const InputType = styled.div`
+  width: 40px;
+  height: 1000px;
+  margin-right: 230px;
+`;
